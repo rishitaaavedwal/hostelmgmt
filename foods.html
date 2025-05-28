@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Foods</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #334155; /* Darker text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+            padding: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .nav-link {
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+        .nav-link:hover {
+            background-color: #3b82f6; /* blue-500 */
+            color: #ffffff;
+        }
+        .meal-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .meal-item svg {
+            margin-right: 0.5rem;
+            color: #f59e0b; /* amber-500 */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 sm:mb-0">Hostel Management System</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center sm:justify-end space-x-4">
+                    <li><a href="index.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Home</a></li>
+                    <li><a href="hostel_fee.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Hostel Fee</a></li>
+                    <li><a href="rooms.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Rooms</a></li>
+                    <li><a href="foods.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Foods</a></li>
+                    <li><a href="canteen.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Canteen</a></li>
+                    <li><a href="laundry.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Laundry</a></li>
+                    <li><a href="sports_arena.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Sports Arena</a></li>
+                    <li><a href="dance.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Dance Studio</a></li>
+                    <li><a href="gym.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Gym</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container py-8">
+        <section class="text-center mb-10">
+            <h2 class="text-4xl font-extrabold text-blue-700 mb-4">Nutritious and Delicious Meals</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Our hostel mess provides a balanced and varied diet to ensure the well-being of all residents.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="card p-6">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-4">Our Meal Plans</h3>
+                <p class="text-gray-700 mb-4">
+                    We offer comprehensive meal plans covering breakfast, lunch, and dinner, prepared with fresh, local ingredients.
+                    Special dietary requirements can be accommodated upon request and prior notification.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li><strong>Breakfast:</strong> 7:30 AM - 9:00 AM</li>
+                    <li><strong>Lunch:</strong> 12:30 PM - 2:00 PM</li>
+                    <li><strong>Dinner:</strong> 7:30 PM - 9:00 PM</li>
+                    <li>Weekend special menus.</li>
+                    <li>Vegetarian and Non-Vegetarian options available daily.</li>
+                </ul>
+                <p class="text-gray-700 mt-4">
+                    We prioritize hygiene and quality in all our food preparations.
+                </p>
+            </div>
+
+            <div class="card p-6">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-4">Sample Weekly Menu</h3>
+                <div class="mb-4">
+                    <h4 class="text-xl font-medium text-gray-800 mb-2">Monday</h4>
+                    <ul class="list-none text-gray-700">
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Breakfast: Idli, Sambar, Chutney</li>
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Lunch: Roti, Dal, Mix Veg, Rice</li>
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Dinner: Chicken Curry/Paneer Butter Masala, Rice, Salad</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h4 class="text-xl font-medium text-gray-800 mb-2">Tuesday</h4>
+                    <ul class="list-none text-gray-700">
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Breakfast: Poha, Tea/Coffee</li>
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Lunch: Puri, Aloo Bhaji, Sweet</li>
+                        <li class="meal-item"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Dinner: Veg Biryani/Egg Biryani, Raita</li>
+                    </ul>
+                </div>
+                <p class="text-sm text-gray-500 mt-4">
+                    *Menu is subject to change based on seasonal availability and student feedback.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8">
+        <div class="container">
+            <p>&copy; 2025 Hostel Management. All rights reserved.</p>
+            <p class="text-sm mt-2">Contact us: info@hostel.com | +123 456 7890</p>
+        </div>
+    </footer>
+</body>
+</html>
