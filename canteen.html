@@ -274,3 +274,125 @@
     </footer>
 </body>
 </html>
+//CONTRIBUTED BY A.DONISHA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Sports Arena</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #334155; /* Darker text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+            padding: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .nav-link {
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+        .nav-link:hover {
+            background-color: #3b82f6; /* blue-500 */
+            color: #ffffff;
+        }
+        .sport-icon {
+            color: #059669; /* emerald-600 */
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 sm:mb-0">Hostel Management System</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center sm:justify-end space-x-4">
+                    <li><a href="index.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Home</a></li>
+                    <li><a href="hostel_fee.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Hostel Fee</a></li>
+                    <li><a href="rooms.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Rooms</a></li>
+                    <li><a href="foods.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Foods</a></li>
+                    <li><a href="canteen.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Canteen</a></li>
+                    <li><a href="laundry.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Laundry</a></li>
+                    <li><a href="sports_arena.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Sports Arena</a></li>
+                    <li><a href="dance.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Dance Studio</a></li>
+                    <li><a href="gym.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Gym</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container py-8">
+        <section class="text-center mb-10">
+            <h2 class="text-4xl font-extrabold text-blue-700 mb-4">Our State-of-the-Art Sports Arena</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Stay active and healthy with our diverse range of sports facilities, designed for both casual play and competitive training.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="card p-6">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-4">Indoor Sports Facilities</h3>
+                <img src="https://placehold.co/400x250/D1FAE5/059669?text=Indoor+Sports" alt="Indoor Sports Arena" class="w-full h-48 object-cover rounded-md mb-4">
+                <p class="text-gray-700 mb-4">
+                    Our indoor arena provides excellent facilities for various sports, ensuring you can play regardless of the weather.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Badminton Courts (2)</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Table Tennis Tables (3)</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Carrom & Chess Boards</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Yoga and Meditation Space</li>
+                </ul>
+            </div>
+
+            <div class="card p-6">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-4">Outdoor Sports Facilities</h3>
+                <img src="https://placehold.co/400x250/D1FAE5/059669?text=Outdoor+Sports" alt="Outdoor Sports Arena" class="w-full h-48 object-cover rounded-md mb-4">
+                <p class="text-gray-700 mb-4">
+                    Enjoy the fresh air and sunshine with our well-maintained outdoor sports grounds.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Basketball Court</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Volleyball Court</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Cricket Nets</li>
+                    <li class="flex items-center"><svg class="w-5 h-5 sport-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Jogging Track</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mt-10 card p-6">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">Sports Arena Policies & Timings</h3>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li><strong>Operating Hours:</strong> 6:00 AM - 10:00 PM daily.</li>
+                <li>Equipment can be borrowed from the hostel office with a valid ID.</li>
+                <li>Proper sports attire is mandatory for all activities.</li>
+                <li>Booking slots for courts may be required during peak hours.</li>
+                <li>Inter-hostel sports tournaments are organized regularly.</li>
+                <li>First-aid facilities are available at the sports arena.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8">
+        <div class="container">
+            <p>&copy; 2025 Hostel Management. All rights reserved.</p>
+            <p class="text-sm mt-2">Contact us: info@hostel.com | +123 456 7890</p>
+        </div>
+    </footer>
+</body>
+</html>
