@@ -1,3 +1,119 @@
+//CONTRIBUTED BY SEEMA SHARMA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Rules & Regulations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #334155; /* Darker text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+            padding: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .nav-link {
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+        .nav-link:hover {
+            background-color: #3b82f6; /* blue-500 */
+            color: #ffffff;
+        }
+        .rule-item {
+            margin-bottom: 0.75rem;
+        }
+        .rule-item strong {
+            color: #dc2626; /* red-600 */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 sm:mb-0">Hostel Management System</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center sm:justify-end space-x-4">
+                    <li><a href="index.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Home</a></li>
+                    <li><a href="hostel_fee.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Hostel Fee</a></li>
+                    <li><a href="rooms.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Rooms</a></li>
+                    <li><a href="foods.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Foods</a></li>
+                    <li><a href="canteen.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Canteen</a></li>
+                    <li><a href="laundry.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Laundry</a></li>
+                    <li><a href="sports_arena.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Sports Arena</a></li>
+                    <li><a href="dance.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Dance Studio</a></li>
+                    <li><a href="gym.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Gym</a></li>
+                    <li><a href="events.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Events</a></li>
+                    <li><a href="contact_us.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Contact Us</a></li>
+                    <li><a href="rules_regulations.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Rules</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container py-8">
+        <section class="text-center mb-10">
+            <h2 class="text-4xl font-extrabold text-blue-700 mb-4">Hostel Rules & Regulations</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                To ensure a harmonious and safe living environment, all residents are expected to adhere to the following rules and regulations.
+            </p>
+        </section>
+
+        <section class="card p-6">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">General Conduct</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li class="rule-item"><strong>Quiet Hours:</strong> Maintain silence between 10:00 PM and 6:00 AM.</li>
+                <li class="rule-item"><strong>Visitors:</strong> Visitors are allowed only in common areas during designated hours (9:00 AM - 8:00 PM) and must be signed in at the reception. Overnight guests are strictly prohibited.</li>
+                <li class="rule-item"><strong>Cleanliness:</strong> Keep your rooms and common areas clean and tidy. Dispose of waste in designated bins.</li>
+                <li class="rule-item"><strong>Damage to Property:</strong> Residents will be held responsible for any damage caused to hostel property and will be charged for repairs.</li>
+                <li class="rule-item"><strong>Smoking & Alcohol:</strong> Smoking, consumption of alcohol, and illegal substances are strictly prohibited on hostel premises.</li>
+                <li class="rule-item"><strong>Pets:</strong> No pets are allowed inside the hostel.</li>
+                <li class="rule-item"><strong>Electricity & Water:</strong> Conserve electricity and water. Turn off lights and fans when leaving the room.</li>
+                <li class="rule-item"><strong>Security:</strong> Ensure your room is locked when you leave. Report any suspicious activity to the hostel warden.</li>
+                <li class="rule-item"><strong>Disputes:</strong> All disputes among residents should be reported to the warden for amicable resolution.</li>
+                <li class="rule-item"><strong>Emergencies:</strong> Familiarize yourself with emergency exits and procedures.</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-blue-600 mt-6 mb-4">Mess & Canteen Rules</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li class="rule-item">Adhere to the mess timings. No food is to be taken out of the mess hall without permission.</li>
+                <li class="rule-item">Maintain decorum in the mess and canteen areas.</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-blue-600 mt-6 mb-4">Disciplinary Action</h3>
+            <p class="text-gray-700">
+                Violation of any of these rules may lead to disciplinary action, including fines, suspension, or expulsion from the hostel.
+            </p>
+            <p class="text-sm text-gray-500 mt-4">
+                *The hostel administration reserves the right to amend these rules as necessary.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8">
+        <div class="container">
+            <p>&copy; 2025 Hostel Management. All rights reserved.</p>
+            <p class="text-sm mt-2">Contact us: info@hostel.com | +123 456 7890</p>
+        </div>
+    </footer>
+</body>
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
