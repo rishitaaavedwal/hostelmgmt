@@ -1,3 +1,146 @@
+//CONTRIBUTED BY SEEMA SHARMA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #334155; /* Darker text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+            padding: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .nav-link {
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        }
+        .nav-link:hover {
+            background-color: #3b82f6; /* blue-500 */
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 sm:mb-0">Hostel Management System</h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center sm:justify-end space-x-4">
+                    <li><a href="index.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Home</a></li>
+                    <li><a href="hostel_fee.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Hostel Fee</a></li>
+                    <li><a href="rooms.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Rooms</a></li>
+                    <li><a href="foods.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Foods</a></li>
+                    <li><a href="canteen.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Canteen</a></li>
+                    <li><a href="laundry.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Laundry</a></li>
+                    <li><a href="sports_arena.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Sports Arena</a></li>
+                    <li><a href="dance.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Dance Studio</a></li>
+                    <li><a href="gym.html" class="nav-link p-2 rounded-md hover:bg-blue-500">Gym</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container py-8">
+        <section class="text-center mb-10">
+            <h2 class="text-4xl font-extrabold text-blue-700 mb-4">Welcome to Our Hostel!</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                Your comfort and well-being are our top priorities. Explore the various facilities and services we offer to make your stay enjoyable and productive.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Hostel Fees</h3>
+                <p class="text-gray-700 mb-4">
+                    Find detailed information about our transparent fee structure, payment options, and important deadlines.
+                </p>
+                <a href="hostel_fee.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">View Details</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Comfortable Rooms</h3>
+                <p class="text-gray-700 mb-4">
+                    Discover our well-maintained rooms, designed to provide a comfortable and conducive living environment.
+                </p>
+                <a href="rooms.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Explore Rooms</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Nutritious Food</h3>
+                <p class="text-gray-700 mb-4">
+                    Enjoy a variety of delicious and healthy meals prepared by our experienced culinary team.
+                </p>
+                <a href="foods.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Meal Plans</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">On-Campus Canteen</h3>
+                <p class="text-gray-700 mb-4">
+                    Grab quick bites, snacks, and beverages at our convenient and hygienic canteen.
+                </p>
+                <a href="canteen.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Visit Canteen</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Laundry Services</h3>
+                <p class="text-gray-700 mb-4">
+                    Access our efficient and affordable laundry facilities for all your washing needs.
+                </p>
+                <a href="laundry.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Laundry Info</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Sports Arena</h3>
+                <p class="text-gray-700 mb-4">
+                    Stay active and engaged with our state-of-the-art sports facilities for various games.
+                </p>
+                <a href="sports_arena.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Explore Sports</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Dance Studio</h3>
+                <p class="text-gray-700 mb-4">
+                    Unleash your creativity and passion for dance in our dedicated dance studio.
+                </p>
+                <a href="dance.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Dance Classes</a>
+            </div>
+
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-blue-600 mb-3">Fitness Gym</h3>
+                <p class="text-gray-700 mb-4">
+                    Maintain your fitness routine with our fully equipped gymnasium and experienced trainers.
+                </p>
+                <a href="gym.html" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">Gym Access</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8">
+        <div class="container">
+            <p>&copy; 2025 Hostel Management. All rights reserved.</p>
+            <p class="text-sm mt-2">Contact us: info@hostel.com | +123 456 7890</p>
+        </div>
+    </footer>
+</body>
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
